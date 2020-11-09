@@ -28,14 +28,7 @@ export class AppComponent {
             fetchedSatellites[i].operational);
           // add new Satellite object to sourceList using: this.sourceList.push(satellite);
           this.sourceList.push(satellite);
-          let newSatellite = (satellite.name,
-            satellite.type,
-            satellite.launchDate,
-            satellite.orbitType,
-            satellite.operational);  
-         }
-       
-
+        }
       }.bind(this));
     }.bind(this));
 
